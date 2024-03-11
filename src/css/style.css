@@ -1,0 +1,70 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.cartao {
+    background-color: #fff;
+    width: 330px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+.cartao .informacoes-do-cartao p{
+    padding: 20px;
+}
+
+
+
+.cartao .informacoes-do-cartao {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20%;
+    margin-top: 65px;
+}
+
+hr {
+    width: 100%;
+}
+
+.cartao .informacoes-do-rodape {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+
+}
+
+.cartao .seguidores {
+    margin-left: 20px;
+}
+
+.informacoes-do-cartao .images {
+    border-radius: 50%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.country{
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+
+.followers, .like, .photos, .old {
+    opacity: 0.5;
+}
